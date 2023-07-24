@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-newsletter.jpg'
+import backgroundImage from '@/images/rangle.webp'
 
 function ArrowRightIcon(props) {
   return (
@@ -23,7 +23,7 @@ export function Newsletter() {
   return (
     <section id="newsletter" aria-label="Newsletter">
       <Container>
-        <div className="relative -mx-4 overflow-hidden bg-indigo-50 px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+        <div className="relative px-4 py-20 -mx-4 overflow-hidden bg-indigo-50 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
           <Image
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%]"
             src={backgroundImage}
@@ -32,9 +32,9 @@ export function Newsletter() {
             height={1351}
             unoptimized
           />
-          <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
+          <div className="relative grid max-w-2xl grid-cols-1 mx-auto gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
             <div>
-              <p className="font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
+              <p className="text-4xl font-medium tracking-tighter text-blue-900 font-display sm:text-5xl">
                 Stay up to date
               </p>
               <p className="mt-4 text-lg tracking-tight text-blue-900">
@@ -57,7 +57,7 @@ export function Newsletter() {
                 <Button type="submit">
                   <span className="sr-only sm:not-sr-only">Sign up today</span>
                   <span className="sm:hidden">
-                    <ArrowRightIcon className="h-6 w-6" />
+                    <ArrowRightIcon className="w-6 h-6" />
                   </span>
                 </Button>
               </div>
