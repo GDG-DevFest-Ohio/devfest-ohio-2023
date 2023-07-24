@@ -17,10 +17,10 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      <Speakers />
-      <Schedule />
-      <Sponsors />
-      <Newsletter />
+      {/* <Speakers /> */}
+      {/* <Schedule /> */}
+      {/* <Sponsors /> */}
+      {/* <Newsletter /> */}
     </>
   )
 }
