@@ -1,26 +1,22 @@
 import Head from 'next/head'
-
-import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
-import { Schedule } from '@/components/Schedule'
-import { Speakers } from '@/components/Speakers'
-import { Sponsors } from '@/components/Sponsors'
+import  PageTitle  from '@/components/PageTitle'
 
-export default function Home() {
+const GetTicketsPage = () => {
+  const pageTitle = 'Get Tickets';
   return (
     <>
       <Head>
-        <title>Ohio DevFest Hackathon & Conference</title>
+        <PageTitle title={pageTitle} />
         <meta
           name="description"
           content="The 2023 Ohio DevFest is a local tech conference hosted by Ohio-based Google Developer Groups (GDGs). It features talks, hands-on demos, workshops, and codelabs on the latest Google tech, plus featured talks intended to broaden interest and appeal."
         />
       </Head>
-      <Hero />
-      {/* <Speakers /> */}
-      {/* <Schedule /> */}
-      {/* <Sponsors /> */}
+
+      <PageTitle />
       <Newsletter />
     </>
   )
 }
+export default GetTicketsPage;
