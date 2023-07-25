@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import backgroundImage from '@/images/background.jpg'
+import backgroundImage from '@/images/langle.webp'
 
 export function BackgroundImage({ className, position = 'left' }) {
   return (
@@ -13,7 +13,7 @@ export function BackgroundImage({ className, position = 'left' }) {
     >
       <Image
         className={clsx(
-          'absolute top-0',
+          'absolute top-32',
           position === 'left' &&
             'left-0 translate-x-[-55%] translate-y-[-10%] -scale-x-100 sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-122%]',
           position === 'right' &&
