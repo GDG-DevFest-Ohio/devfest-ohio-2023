@@ -1,5 +1,5 @@
-import { BackgroundImage } from '@/components/BackgroundImage'
 import { Button } from '@/components/Button'
+import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
 
 export function Hero() {
@@ -9,21 +9,22 @@ export function Hero() {
       <Container className="relative">
         <div className="max-w-2xl mx-auto lg:max-w-4xl lg:px-12">
           <h1 className="text-5xl font-bold tracking-tighter text-blue-600 font-display sm:text-7xl">
-            <span className="sr-only">Ohio Devfest - </span>The biggest Ohio Google conf crafted for you!
+            <span className="sr-only">Ohio Devfest - </span>Welcome to the largest Ohio Google conference!
           </h1>
           <div className="mt-6 space-y-6 text-2xl tracking-tight text-blue-900 font-display">
             <p>
-              The Ohio DevFest is hosted by Google Developer Groups (GDGs) around the Ohio. Join our hackathon, learn about AI, Cloud,
-            Android, Web, & Accessibility from world experts. Or just come to
-            network and have fun!
+              Discover Ohio DevFest, hosted by Google Developer Groups (GDGs) from Columbus, Cincinnati, Cleveland, and Toledo. Enjoy tracks like our Team-oriented Hackathon, Google Technologies, and Enhancing User Experience.  
             </p>
             <p>
-              DevFest is the premiere local event for developers to learn about Google’s latest technologies from Googlers, Google Developer Experts and speakers from the industry. In 2022, GDGs ran 550+ DevFests, helping 320k+ developers. Come to learn, share, and connect with the community.
+              Our event covers the hottest topics from AI, Cloud, Android, to Design, and Accessibility. Connect with recruiters, and startup entrepreneurs. Plus the Hallway track ... networking with fellow attendees and guests.
+            </p>
+            <p>
+              The <span className='italic font-bold'>DevFest</span> is a premiere event for developers to learn about Google's latest technologies from Googlers, Google Developer Experts and industry professionals. In 2022, GDGs ran 550+ DevFests, helping 320k+ developers. <span className='italic font-bold'>Come to learn, share, and connect with the community. </span>
             </p>
           </div>
-          <Button href="#" className="w-full mt-10 sm:hidden">
-            Get your tickets
-          </Button>
+          <div className="flex justify-center w-full mt-10 sm:justify-start sm:w-auto lg:grow lg:basis-0">
+            <Button href="/get-tickets">Get your tickets</Button>
+          </div>
           <dl className="grid grid-cols-2 mt-10 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', 'TBD'],
