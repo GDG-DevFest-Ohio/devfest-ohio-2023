@@ -13,14 +13,15 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 text-2xl tracking-tight text-blue-900 font-display">
             <p>
-              Discover Ohio DevFest, hosted by Google Developer Groups from Ohio strongholds. Enjoy tracks like a team-oriented hackathon, Google technologies and workshops, and enhancing the user experience.  
+              <span className='font-bold'>Discover Ohio DevFest.</span> Hosted by Google Developer Groups from Ohio tech strongholds. Enjoy tracks like a team-oriented hackathon, Google technologies, workshops, and enhancing the user experience.  
             </p>
-            <p>
-              Our event covers the hottest topics from AI, Cloud, Android, to Design, and Accessibility. Connect with recruiters, and startup entrepreneurs. Plus the Hallway track ... networking with fellow attendees and guests.
+            <p className='hidden sm:block'>
+              <strong>Our event covers the hottest topics.</strong> Connect with startup entrepreneurs, recruiters, plus don't forget the hallway track ... networking with attendees and our special guests.
             </p>
-            <p>
-              The <span className='italic font-bold'>DevFest</span> is a premiere event for developers to learn about Google's latest technologies from Googlers, Google Developer Experts and industry professionals. In 2022, GDGs ran 550+ DevFests, helping 320k+ developers. <span className='italic font-bold'>Come to learn, share, and connect with the community. </span>
+            <p classname="hidden sm:block">
+              <span className='font-bold'>The DevFest</span> is a premiere event for developers to learn about Google's latest technologies from Googlers, Google Developer Experts and industry professionals. In 2022, GDGs ran 550+ DevFests, helping 320k+ developers. <span className='italic font-bold'>Come to learn, share, and connect with the community. </span>
             </p>
+            
           </div>
           <div className="flex justify-center w-full mt-10 sm:justify-start sm:w-auto lg:grow lg:basis-0">
             <Button href="/get-tickets">Get your tickets</Button>
