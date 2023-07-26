@@ -1,12 +1,10 @@
 import Head from 'next/head'
-
-import { Hero } from '@/components/Hero'
+import  PageTitle  from '@/components/PageTitle'
 import { Newsletter } from '@/components/Newsletter'
-import { Schedule } from '@/components/Schedule'
-import { Speakers } from '@/components/Speakers'
-import { Sponsors } from '@/components/Sponsors'
 
-export default function Home() {
+const BecomeSponsorPage = () => {
+  const pageTitle = 'How to Become a sponsor'
+  const description = 'A bit of info introducing the sponsorship page'
   return (
     <>
       <Head>
@@ -16,11 +14,9 @@ export default function Home() {
           content="The 2023 Ohio DevFest is a local tech conference hosted by Ohio-based Google Developer Groups (GDGs). It features talks, hands-on demos, workshops, and codelabs on the latest Google tech, plus featured talks intended to broaden interest and appeal."
         />
       </Head>
-      <Hero />
-      {/* <Speakers /> */}
-      {/* <Schedule /> */}
-      {/* <Sponsors /> */}
+      <PageTitle title={pageTitle} description={description} />
       <Newsletter />
     </>
   )
 }
+export default BecomeSponsorPage;

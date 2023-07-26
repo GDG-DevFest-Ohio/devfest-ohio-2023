@@ -27,6 +27,15 @@ export function Header() {
           <Button href="#">Get your tickets</Button>
         </div>
       </Container>
+      <Container>
+        <nav className='flex items-center justify-center'>
+          <ul className="flex items-center justify-center gap-8 px-8 py-4 overflow-x-auto font-mono text-sm text-blue-600 bg-blue-100 border-b rounded-full border-blue-900/10 sm:-mx-6 lg:mx-0 lg:justify-start">
+            <li><Link className='hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4' href={'/'}>Home</Link></li>
+            <li><Link className='hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4' href={'/become-sponsor'}>Event sponsorship</Link></li>
+            <li><Link className='hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4' href={'/get-tickets'}>Get tickets</Link></li>
+          </ul>
+        </nav>
+      </Container>
     </header>
   )
 }
