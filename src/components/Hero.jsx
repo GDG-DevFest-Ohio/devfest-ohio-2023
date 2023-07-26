@@ -13,7 +13,7 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 text-2xl tracking-tight text-blue-900 font-display">
             <p>
-              Discover Ohio DevFest, hosted by Google Developer Groups (GDGs) from Columbus, Cincinnati, Cleveland, and Toledo. Enjoy tracks like our Team-oriented Hackathon, Google Technologies, and Enhancing User Experience.  
+              Discover Ohio DevFest, hosted by Google Developer Groups from Ohio strongholds. Enjoy tracks like a team-oriented hackathon, Google technologies and workshops, and enhancing the user experience.  
             </p>
             <p>
               Our event covers the hottest topics from AI, Cloud, Android, to Design, and Accessibility. Connect with recruiters, and startup entrepreneurs. Plus the Hallway track ... networking with fellow attendees and guests.
