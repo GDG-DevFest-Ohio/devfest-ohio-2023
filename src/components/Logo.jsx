@@ -3,11 +3,11 @@ export function Logo(props) {
     <svg
       role="img"
       aria-hidden="true"
-      aria-describedby='oh_devfest'
+      aria-describedby="oh_devfest"
       viewBox="0 0 88 87"
-      className="logo" 
-      {...props}>
-      
+      className="logo"
+      {...props}
+    >
       <title id="oh_devfest">Ohio Devfest</title>
       <path
         id="bottomBorder"
