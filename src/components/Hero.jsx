@@ -16,10 +16,10 @@ export function Hero() {
               <span className='font-bold'>Discover Ohio DevFest.</span> Hosted by Google Developer Groups from Ohio tech strongholds. Enjoy tracks like a team-oriented hackathon, Google technologies, workshops, and enhancing the user experience.  
             </p>
             <p className='hidden sm:block'>
-              <strong>Our event covers the hottest topics.</strong> Connect with startup entrepreneurs, recruiters, plus don't forget the hallway track ... networking with attendees and our special guests.
+              <strong>Our event covers the hottest topics.</strong> Connect with startup entrepreneurs, recruiters, plus don&rsquo;t forget the hallway track ... networking with attendees and our special guests.
             </p>
             <p classname="hidden sm:block">
-              <span className='font-bold'>The DevFest</span> is a premiere event for developers to learn about Google's latest technologies from Googlers, Google Developer Experts and industry professionals. In 2022, GDGs ran 550+ DevFests, helping 320k+ developers. <span className='italic font-bold'>Come to learn, share, and connect with the community. </span>
+              <span className='font-bold'>The DevFest</span> is a premiere event for developers to learn about Google&rsquo;s latest technologies from Googlers, Google Developer Experts and industry professionals. In 2022, GDGs ran 550+ DevFests, helping 320k+ developers. <span className='italic font-bold'>Come to learn, share, and connect with the community. </span>
             </p>
             
           </div>
