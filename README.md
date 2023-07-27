@@ -1,7 +1,7 @@
 # Ohio Devfest Conference Website
 
 The biggest Google tech conference in Ohio carefully crafted for you
- by the GDG community! Join our hackathon, learn about AI, Cloud,
+by the GDG community! Join our hackathon, learn about AI, Cloud,
 Android, Web, & Accessibility from world experts. Or just come to
 network and have fun!
 

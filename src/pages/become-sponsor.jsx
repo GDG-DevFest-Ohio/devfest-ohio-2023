@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import  PageTitle  from '@/components/PageTitle'
+import PageTitle from '@/components/PageTitle'
 import { Newsletter } from '@/components/Newsletter'
 
 const BecomeSponsorPage = () => {
@@ -19,4 +19,4 @@ const BecomeSponsorPage = () => {
     </>
   )
 }
-export default BecomeSponsorPage;
+export default BecomeSponsorPage
