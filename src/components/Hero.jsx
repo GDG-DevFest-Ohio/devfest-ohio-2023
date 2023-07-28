@@ -25,7 +25,7 @@ export function Hero() {
               hallway track ... networking with attendees and our special
               guests.
             </p>
-            <p classname="hidden sm:block">
+            <p className="hidden sm:block">
               <span className="font-bold">The DevFest</span> is a premiere event
               for developers to learn about Google&rsquo;s latest technologies
               from Googlers, Google Developer Experts and industry
