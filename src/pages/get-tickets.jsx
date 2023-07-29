@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import { Newsletter } from '@/components/Newsletter'
+// import { Newsletter } from '@/components/Newsletter'
 import PageTitle from '@/components/PageTitle'
+import { Container } from '@/components/Container'
 
 const GetTicketsPage = () => {
   const pageTitle = 'Get Tickets'
-  const description =
-    'A simple introduction to the tickets page with details to follow'
+  const description = 'Latest details about the 2023 Ohio DevFest tickets'
   return (
     <>
       <Head>
@@ -16,9 +16,24 @@ const GetTicketsPage = () => {
           content="The 2023 Ohio DevFest is a local tech conference hosted by Ohio-based Google Developer Groups (GDGs). It features talks, hands-on demos, workshops, and codelabs on the latest Google tech, plus featured talks intended to broaden interest and appeal."
         />
       </Head>
+      <Container>
+        <div className="max-w-2xl mx-auto lg:max-w-4xl">
+          <PageTitle title={pageTitle} description={description} />
 
-      <PageTitle title={pageTitle} description={description} />
-      <Newsletter />
+          <div className="px-4 text-xl sm:px-6 lg:px-8">
+            <p className="text-xl">
+              It is early in our promtion of this event. While tickets are not
+              yet available, rest assured we are working to bring you the
+              latest information about our speakers, tracks, and activities
+              around our 2023 Ohio DevFest. Thank you for considering us and we
+              encourage you to check back soon for updates. 
+            </p>
+            <p className="mt-6">We can't wait to
+              have you join us at the Ohio DevFest!</p>
+          </div>
+        </div>
+      </Container>
+      {/* <Newsletter /> */}
     </>
   )
 }

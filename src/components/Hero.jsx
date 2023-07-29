@@ -1,6 +1,6 @@
-import { Button } from '@/components/Button'
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
+import { TicketButton } from './TicketButton'
 
 export function Hero() {
   return (
@@ -37,7 +37,7 @@ export function Hero() {
             </p>
           </div>
           <div className="mt-10 flex w-full justify-center sm:w-auto sm:justify-start lg:grow lg:basis-0">
-            <Button href="/get-tickets">Get your tickets</Button>
+            <TicketButton path="/get-tickets" content="Get your tickets" />
           </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
