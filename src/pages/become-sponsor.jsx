@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import PageTitle from '@/components/PageTitle'
-import { Newsletter } from '@/components/Newsletter'
+// import { Newsletter } from '@/components/Newsletter'
 
 const BecomeSponsorPage = () => {
   const pageTitle = 'How to Become a sponsor'
@@ -15,7 +15,7 @@ const BecomeSponsorPage = () => {
         />
       </Head>
       <PageTitle title={pageTitle} description={description} />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </>
   )
 }

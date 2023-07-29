@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Newsletter } from '@/components/Newsletter'
+// import { Newsletter } from '@/components/Newsletter'
 import PageTitle from '@/components/PageTitle'
 
 const GetTicketsPage = () => {
@@ -18,7 +18,7 @@ const GetTicketsPage = () => {
       </Head>
 
       <PageTitle title={pageTitle} description={description} />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </>
   )
 }
