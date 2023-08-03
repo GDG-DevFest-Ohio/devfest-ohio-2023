@@ -2,7 +2,7 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
-import { TicketButton } from './TicketButton'
+// import { TicketButton } from './TicketButton'
 
 export function Header() {
   return (
@@ -10,7 +10,7 @@ export function Header() {
       <Container className="flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
         <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
           <Link href="/">
-            <Logo className="h-24 w-auto text-slate-900" />
+            <Logo className="h-24 w-auto text-blue-700 transition duration-700 ease-in-out hover:text-orange-600" />
           </Link>
         </div>
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-blue-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
@@ -27,7 +27,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <TicketButton path="/get-tickets" content="Get your tickets" />
+          {/* <TicketButton path="/get-tickets" content="Get your tickets" /> */}
         </div>
       </Container>
       <div className="mx-auto px-0 sm:px-4 lg:px-8">
@@ -57,7 +57,7 @@ export function Header() {
                 className="hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4"
                 href={'/get-tickets'}
               >
-                Get tickets
+                Ticket Info
               </Link>
             </li>
           </ul>
