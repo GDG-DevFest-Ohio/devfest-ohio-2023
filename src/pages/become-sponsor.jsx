@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import PageTitle from '@/components/PageTitle'
 import { Container } from '@/components/Container'
+import Banner from '@/components/Banner'
 
 // import { Newsletter } from '@/components/Newsletter'
 
@@ -17,6 +18,9 @@ const BecomeSponsorPage = () => {
         />
       </Head>
       <Container>
+        <div className="mt-16">
+          <Banner />
+        </div>
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <PageTitle title={pageTitle} description={description} />
 
