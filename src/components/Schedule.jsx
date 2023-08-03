@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
+//import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
