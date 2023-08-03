@@ -1,12 +1,16 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
-import { TicketButton } from './TicketButton'
+//import { TicketButton } from './TicketButton'
+import Banner from './Banner'
 
 export function Hero() {
   return (
-    <div className="relative py-20 sm:pb-24 sm:pt-36">
+    <div className="relative pb-20 pt-10 sm:pb-24">
       <BackgroundImage className="-bottom-14 -top-36" />
       <Container className="relative">
+        <div className="mb-16">
+          <Banner />
+        </div>
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">Ohio Devfest - </span>Welcome to the
@@ -37,7 +41,7 @@ export function Hero() {
             </p>
           </div>
           <div className="mt-10 flex w-full justify-center sm:w-auto sm:justify-start lg:grow lg:basis-0">
-            <TicketButton path="/get-tickets" content="Get your tickets" />
+            {/* <TicketButton path="/get-tickets" content="Get your tickets" /> */}
           </div>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
