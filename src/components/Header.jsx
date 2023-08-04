@@ -2,7 +2,7 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import Link from 'next/link'
 import { Logo } from '@/components/Logo'
-// import { TicketButton } from './TicketButton'
+import CalendarButton from '@/components/CalendarButton'
 
 export function Header() {
   return (
@@ -26,8 +26,8 @@ export function Header() {
             </p>
           </div>
         </div>
-        <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          {/* <TicketButton path="/get-tickets" content="Get your tickets" /> */}
+        <div className="hidden sm:flex lg:justify-center">
+          <CalendarButton />
         </div>
       </Container>
       <div className="mx-auto px-0 sm:px-4 lg:px-8">
