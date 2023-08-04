@@ -1,22 +1,23 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
-//import { TicketButton } from './TicketButton'
-import Banner from './Banner'
+import CalendarButton from '@/components/CalendarButton'
 
 export function Hero() {
   return (
-    <div className="relative pb-20 pt-10 sm:pb-24">
+    <div className="relative pt-10 pb-20 sm:pb-24">
       <BackgroundImage className="-bottom-14 -top-36" />
       <Container className="relative">
-        <div className="mb-16">
-          <Banner />
+        <div className="flex justify-center mb-16 sm:hidden">
+          <CalendarButton />
         </div>
-        <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">Ohio Devfest - </span>Welcome to the
-            largest Ohio Google conference!
+        <div className="max-w-2xl mx-auto mt-10 lg:max-w-4xl lg:px-12">
+          <h1 className="text-5xl font-bold tracking-tighter text-center text-blue-600 font-display sm:text-7xl">
+            <span className="text-5xl font-bold tracking-tighter text-blue-600 font-display sm:text-6xl">
+              Join us in Ohio &hellip;
+            </span>
+            <br></br> <span>Google DevFest!</span>
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 text-2xl tracking-tight text-blue-900 font-display">
             <p>
               <span className="font-bold">Discover Ohio DevFest.</span> Hosted
               by Google Developer Groups from Ohio tech strongholds. Enjoy
@@ -24,26 +25,24 @@ export function Hero() {
               workshops, and enhancing the user experience.
             </p>
             <p className="hidden sm:block">
-              <strong>Our event covers the hottest topics.</strong> Connect with
-              startup entrepreneurs, recruiters, plus don&rsquo;t forget the
-              hallway track ... networking with attendees and our special
+              <strong>Our event covers the 🔥hottest topics.</strong> Connect
+              with startup entrepreneurs, recruiters, plus don&rsquo;t forget
+              the hallway track ... networking with attendees and our special
               guests.
             </p>
             <p className="hidden sm:block">
-              <span className="font-bold">The DevFest</span> is a premiere event
-              for developers to learn about Google&rsquo;s latest technologies
-              from Googlers, Google Developer Experts and industry
-              professionals. In 2022, GDGs ran 550+ DevFests, helping 320k+
-              developers.{' '}
-              <span className="font-bold italic">
-                Come to learn, share, and connect with the community.{' '}
+              <span className="font-bold">The Google DevFest</span> is a
+              premiere event for designers and developers to learn about
+              Google&rsquo;s latest technologies from Googlers, Google Developer
+              Experts and industry professionals. In 2022, GDGs ran 550+
+              DevFests, helping 320k+ developers.{' '}
+              <span className="italic font-bold">
+                Come to learn, share, and connect with your community.{' '}
               </span>
             </p>
           </div>
-          <div className="mt-10 flex w-full justify-center sm:w-auto sm:justify-start lg:grow lg:basis-0">
-            {/* <TicketButton path="/get-tickets" content="Get your tickets" /> */}
-          </div>
-          <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+
+          <dl className="grid grid-cols-2 mt-10 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', 'TBD'],
               ['People Attending', '300+'],
