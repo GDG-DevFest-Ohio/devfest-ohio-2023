@@ -33,5 +33,8 @@ module.exports = {
       },
     },
   },
+  varients: {
+    fill: ['hover', 'focus'],
+  },
   plugins: [],
 }

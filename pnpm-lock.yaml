@@ -4,6 +4,12 @@ dependencies:
   '@headlessui/react':
     specifier: ^1.7.13
     version: 1.7.13(react-dom@18.2.0)(react@18.2.0)
+  '@heroicons/react':
+    specifier: ^2.0.18
+    version: 2.0.18(react@18.2.0)
+  add-to-calendar-button-react:
+    specifier: ^2.3.1
+    version: 2.3.1(react-dom@18.2.0)(react@18.2.0)
   autoprefixer:
     specifier: ^10.4.12
     version: 10.4.12(postcss@8.4.27)
@@ -98,6 +104,17 @@ packages:
       client-only: 0.0.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@heroicons/react@2.0.18(react@18.2.0):
+    resolution:
+      {
+        integrity: sha512-7TyMjRrZZMBPa+/5Y8lN0iyvUU/01PeMGX2+RE7cQWpEUIcb4QotzUObFkJDejj/HUH4qjP/eQ0gzzKs2f+6Yw==,
+      }
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
@@ -451,6 +468,31 @@ packages:
     engines: { node: '>=0.4.0' }
     hasBin: true
     dev: true
+
+  /add-to-calendar-button-react@2.3.1(react-dom@18.2.0)(react@18.2.0):
+    resolution:
+      {
+        integrity: sha512-Daqjv+zPvvS4XC9lIdv39Xe7pFu8AFQGVKrhpDe+0VDJ/sDBCvhkWap4INRUiW7s36AZ5AYQ9ekgWTwJh620UQ==,
+      }
+    engines: { node: '>=16.18.1', npm: '>=8.19.2' }
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      add-to-calendar-button: 2.3.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /add-to-calendar-button@2.3.1:
+    resolution:
+      {
+        integrity: sha512-M0DCX839Q5o/YffcpsQjhlGqLk2z51t6ti2kxSaiHJs2S6VtG1t6e5a0R2e/WiBea3l5yU9B/P8ff2NR6bQZuw==,
+      }
+    engines: { node: '>=16.18.1', npm: '>=8.19.2' }
+    dependencies:
+      timezones-ical-library: 1.7.1
+    dev: false
 
   /ajv@6.12.6:
     resolution:
@@ -3467,6 +3509,14 @@ packages:
       }
     dependencies:
       any-promise: 1.3.0
+    dev: false
+
+  /timezones-ical-library@1.7.1:
+    resolution:
+      {
+        integrity: sha512-kMklJHvitGSl51ewFyDuFmgN+QRM2y4FmW6bOSl+etzUfOkGVWRmoGAoyaNunmVFY5jw0Puezg2cXwvsgaOkFQ==,
+      }
+    engines: { node: '>=14.20.0' }
     dev: false
 
   /to-regex-range@5.0.1:
