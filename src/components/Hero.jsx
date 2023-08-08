@@ -1,6 +1,6 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
-import CalendarButton from '@/components/CalendarButton'
+// import CalendarButton from '@/components/CalendarButton'
 
 export function Hero() {
   return (
@@ -8,7 +8,7 @@ export function Hero() {
       <BackgroundImage className="-bottom-14 -top-36" />
       <Container className="relative">
         <div className="flex justify-center mb-16 sm:hidden">
-          <CalendarButton />
+          {/* <CalendarButton /> */}
         </div>
         <div className="max-w-2xl mx-auto mt-10 lg:max-w-4xl lg:px-12">
           <h1 className="text-5xl font-bold tracking-tighter text-center text-blue-600 font-display sm:text-7xl">

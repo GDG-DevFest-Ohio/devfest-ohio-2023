@@ -1,12 +1,12 @@
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/LogoFooter'
-import CalendarButton from '@/components/CalendarButton'
+// import CalendarButton from '@/components/CalendarButton'
 
 export function Footer() {
   return (
     <footer role="contentinfo" className="flex-none py-16">
       <div className="flex items-center justify-center ">
-        <CalendarButton />
+        {/* <CalendarButton /> */}
       </div>
       <Container className="flex flex-row">
         <div className="flex">
