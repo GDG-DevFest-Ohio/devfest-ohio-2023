@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageTitle = ({ title, description }) => {
   return (
-    <div className="relative py-20 sm:pb-24 sm:pt-36">
+    <div className="relative py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-6xl">
           <span className="sr-only">Ohio Devfest - </span>
