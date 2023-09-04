@@ -36,7 +36,8 @@ const days = [
         jobTitle: 'Product Manager/Developer',
         country: 'Poland',
         companyLogo: 'https://dfua16.web.app/images/logos/sygic.svg',
-        presentation: 'https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story',
+        presentation:
+          'https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story',
         title: 'Fuelio. Success story',
         gdgYear: '2016',
         videoId: 'qK7ysoohsaM',
@@ -50,7 +51,8 @@ const days = [
         jobTitle: 'Code Monkey',
         country: 'Poland',
         companyLogo: applauseLogoImage,
-        presentation: 'https://speakerdeck.com/gdglviv/aleksander-piotrowski-is-there-a-room-for-room',
+        presentation:
+          'https://speakerdeck.com/gdglviv/aleksander-piotrowski-is-there-a-room-for-room',
         title: 'Is there a room for Room?',
         gdgYear: '2017',
         videoId: 'BHiKSnOaoh4',
@@ -63,8 +65,10 @@ const days = [
         bio: 'Android developer, currently works at EPAM Systems Ohio. Has experience in both server and mobile side development. Anton all his free time spends on the endless search of silver bullets, perfect architectures and holy wars',
         jobTitle: 'Chief Software Engineer',
         country: 'Ohio, USA',
-        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg',
-        presentation: 'https://speakerdeck.com/gdglviv/anton-minashkin-random-musings-on-the-android-things',
+        companyLogo:
+          'https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg',
+        presentation:
+          'https://speakerdeck.com/gdglviv/anton-minashkin-random-musings-on-the-android-things',
         title: 'Random Musings on the Android Things',
         gdgYear: '2017',
         videoId: 'NCRr4nA0c7A',
@@ -91,9 +95,12 @@ const days = [
         bio: 'Passionate about computer graphics and code optimization, mastering workshop http://challengingnative.com, hosting http://react.asmterdam and http://amsterdamjs.com',
         jobTitle: 'Senior JS Engineer',
         country: 'Netherlands',
-        companyLogo: 'https://www.evolution.com/wp-content/themes/evolution-wp/assets/img/evolution_logo.svg',
-        presentation: 'https://speakerdeck.com/gdglviv/denis-radin-applying-nasa-coding-guidelines-to-javascript-or-airspace-is-closer-than-you-may-think',
-        title: 'Applying NASA coding guidelines to JavaScript or airspace is closer than you may think',
+        companyLogo:
+          'https://www.evolution.com/wp-content/themes/evolution-wp/assets/img/evolution_logo.svg',
+        presentation:
+          'https://speakerdeck.com/gdglviv/denis-radin-applying-nasa-coding-guidelines-to-javascript-or-airspace-is-closer-than-you-may-think',
+        title:
+          'Applying NASA coding guidelines to JavaScript or airspace is closer than you may think',
         gdgYear: '2017',
         videoId: 'E4fpZm17GNI',
       },
@@ -105,9 +112,12 @@ const days = [
         bio: 'Ivan is a Software Engineer at SoftServe and uses Golang on daily basis for the last couple of years. He has 10+ years of experience in web development and has switched from PHP world. He is focusing on performance, quality, and automation. He likes to optimize solutions, make them simpler, faster and stable. In his time at SoftServe, he has worked with the Kubernetes, Docker, AWS, GraphQL, and many other technologies.',
         jobTitle: 'Developer Advocate',
         country: 'Ohio, USA',
-        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/linux-foundation.svg',
-        presentation: 'https://speakerdeck.com/gdglviv/ihor-dvoretskyi-keynote-welcome-to-the-world-of-open-source-stories-by-kubernetes-contributor',
-        title: 'Welcome to the world of Open Source. Stories by Kubernetes contributor',
+        companyLogo:
+          'https://storage.googleapis.com/dfua17.appspot.com/images/logos/linux-foundation.svg',
+        presentation:
+          'https://speakerdeck.com/gdglviv/ihor-dvoretskyi-keynote-welcome-to-the-world-of-open-source-stories-by-kubernetes-contributor',
+        title:
+          'Welcome to the world of Open Source. Stories by Kubernetes contributor',
         gdgYear: '2017',
         videoId: 'HhpHf3GefXI',
       },
@@ -119,13 +129,15 @@ const days = [
         bio: 'Jana Moudrá is a GDE (Google Developer Expert) for Web technologies - Dart. She is a passionate developer and modern web and mobile technology evangelist. Jana co-founded a company called Juicymo, where she works on juicy apps and products. She loves helping other developers and spreading the knowledge about these technologies. ',
         jobTitle: 'CEO',
         country: 'Czech Republic',
-        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/juicymo.png',
-        presentation: 'https://speakerdeck.com/gdglviv/jana-moudra-how-angulardart-and-firebase-did-an-app-together"',
+        companyLogo:
+          'https://storage.googleapis.com/dfua17.appspot.com/images/logos/juicymo.png',
+        presentation:
+          'https://speakerdeck.com/gdglviv/jana-moudra-how-angulardart-and-firebase-did-an-app-together"',
         title: 'How AngularDart & Firebase did an App together',
         gdgYear: '2017',
         videoId: 'Gk-WFDzCE3E',
       },
-     {
+      {
         name: 'Jaroslav Khorishchenko',
         id: 'jaroslav_khorishchenko',
         image: jaroslavKhorischenkoImage,
@@ -133,8 +145,10 @@ const days = [
         bio: 'Jaroslav is full stack web developer at Smart App Studio. He specializes in React and Node.js. He has come to the word of programming from electronics. He loves to write about his different interesting experiments at his Facebook page.',
         jobTitle: 'Full stack web developer',
         country: 'Ohio, USA',
-        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/smart-app-studio.png',
-        presentation: 'https://speakerdeck.com/gdglviv/jaroslav-khorishchenko-firebase-and-iot-how-to-create-device-and-seize-the-world',
+        companyLogo:
+          'https://storage.googleapis.com/dfua17.appspot.com/images/logos/smart-app-studio.png',
+        presentation:
+          'https://speakerdeck.com/gdglviv/jaroslav-khorishchenko-firebase-and-iot-how-to-create-device-and-seize-the-world',
         title: 'Firebase and IoT (Part 1 & 2)',
         gdgYear: '2017',
         videoId: '',
@@ -147,8 +161,10 @@ const days = [
         bio: 'Passionate about traveling and also to share his adventures with Web Technologies and Firebase. As a Google Developer Expert he’s helping communities all over the world to learn, discover and have fun.',
         jobTitle: 'Firebase Google Developer Expert',
         country: 'Brazil',
-        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/caravana_web.png',
-        presentation: 'https://speakerdeck.com/gdglviv/juarez-filho-let-firebase-help-you-to-build-better-front-end-apps',
+        companyLogo:
+          'https://storage.googleapis.com/dfua17.appspot.com/images/logos/caravana_web.png',
+        presentation:
+          'https://speakerdeck.com/gdglviv/juarez-filho-let-firebase-help-you-to-build-better-front-end-apps',
         title: 'Let Firebase help you to build better Front-end apps',
         gdgYear: '2017',
         videoId: 'xJsgIH4U_DM',
@@ -162,7 +178,8 @@ const days = [
         jobTitle: '',
         country: 'Austria',
         companyLogo: runtasticLogoImage,
-        presentation: 'https://speakerdeck.com/gdglviv/lesya-danylyuk-practical-guide-to-run-a-google-design-sprint',
+        presentation:
+          'https://speakerdeck.com/gdglviv/lesya-danylyuk-practical-guide-to-run-a-google-design-sprint',
         title: 'Practical Guide to Run a Google Design Sprint (Part 1)',
         gdgYear: '2017',
         videoId: 'NCRr4nA0c7A',
@@ -175,8 +192,10 @@ const days = [
         bio: 'A born entrepreneur, combining the creative imagination of an artist with the meticulous precision of an engineer, Yonatan Levin is not only one of Israel’s top mobile developers, he’s also a member of the elite worldwide group of Google Developers Experts.',
         jobTitle: 'CTO & Co-Founder',
         country: 'Israel',
-        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/kolgene.svg',
-        presentation: 'https://speakerdeck.com/gdglviv/yonatan-levin-keynote-making-mistakes-and-building-products-from-1st-to-30m-users',
+        companyLogo:
+          'https://storage.googleapis.com/dfua17.appspot.com/images/logos/kolgene.svg',
+        presentation:
+          'https://speakerdeck.com/gdglviv/yonatan-levin-keynote-making-mistakes-and-building-products-from-1st-to-30m-users',
         title: 'Making mistakes and building products from 1st to 30M users',
         gdgYear: '2017',
         videoId: 'hUY8jg9-ieE',
@@ -190,12 +209,13 @@ const days = [
         jobTitle: 'Head of Mobile',
         country: 'Ohio',
         companyLogo: 'https://dfua16.web.app/images/logos/getsocial.svg',
-        presentation: 'https://speakerdeck.com/zasadnyy/j2objc-cross-platform-development-google-way',
+        presentation:
+          'https://speakerdeck.com/zasadnyy/j2objc-cross-platform-development-google-way',
         title: 'J2ObjC. Cross platform development - Google way',
         gdgYear: '2016',
         videoId: 'NCRr4nA0c7A',
       },
-    ]
+    ],
   },
 ]
 
@@ -244,23 +264,20 @@ export function PastSpeakers() {
     >
       <ImageClipPaths id={id} />
       <Container>
-        <div className="max-w-2xl mx-auto lg:mx-0">
+        <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="speakers-title"
-            className="text-4xl font-medium tracking-tighter text-blue-600 font-display sm:text-5xl"
+            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
             Past Speakers
           </h2>
-          <p className="mt-4 text-2xl tracking-tight text-blue-900 font-display">
-            
-          </p>
+          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900"></p>
         </div>
         <Tab.Group
           as="div"
-          className="grid items-start grid-cols-1 mt-14 gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
+          className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
           horizontial={tabOrientation === 'horizontial'}
         >
-          
           <Tab.Panels className="lg:col-span-4">
             {days.map((day) => (
               <Tab.Panel
@@ -286,7 +303,7 @@ export function PastSpeakers() {
                         style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
                       >
                         <Image
-                          className="absolute inset-0 object-cover w-full h-full transition duration-300 group-hover:scale-110"
+                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
                           src={speaker.image}
                           alt=""
                           priority
@@ -294,30 +311,35 @@ export function PastSpeakers() {
                         />
                       </div>
                     </div>
-                    <h3 className="mt-8 text-xl font-bold tracking-tight font-display text-slate-900">
+                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
                       {speaker.name}
                     </h3>
-                    <p className='text-sm text-slate-500'>{speaker.jobTitle}</p>
+                    <p className="text-sm text-slate-500">{speaker.jobTitle}</p>
                     <a
                       src={speaker.presentation}
                       title={speaker.title && `"${speaker.title}," talk`}
-                      target='_blank'
-                      className='mt-3 text-blue-900 cursor-pointer hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4'>
+                      target="_blank"
+                      className="mt-3 cursor-pointer text-blue-900 hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4"
+                    >
                       {speaker.title}
-                    </a> <span className='text-sm text-base tracking-tight text-slate-500 '>{speaker.gdgYear && `(${speaker.gdgYear})`}</span>
-                    
-                    <p className="flex mt-3 text-base tracking-tight text-slate-500 align-center">
+                    </a>{' '}
+                    <span className="text-base text-sm tracking-tight text-slate-500 ">
+                      {speaker.gdgYear && `(${speaker.gdgYear})`}
+                    </span>
+                    <p className="align-center mt-3 flex text-base tracking-tight text-slate-500">
                       <Image
-                        className='inline me-2'
+                        className="me-2 inline"
                         src={speaker.companyLogo}
                         alt={speaker.company && `${speaker.company} logo`}
                         priority
-                        sizes='min-width: 2rem'
-                        width='70' height='70' /> {speaker.company} {speaker.country && `(${speaker.country})`} <br />
-                      
+                        sizes="min-width: 2rem"
+                        width="70"
+                        height="70"
+                      />{' '}
+                      {speaker.company}{' '}
+                      {speaker.country && `(${speaker.country})`} <br />
                     </p>
-                    <p className='mt-2 text-sm'>{speaker.bio}</p>
-                    
+                    <p className="mt-2 text-sm">{speaker.bio}</p>
                   </div>
                 ))}
               </Tab.Panel>
