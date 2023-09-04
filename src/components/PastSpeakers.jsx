@@ -7,6 +7,19 @@ import { Container } from '@/components/Container'
 //import { DiamondIcon } from '@/components/DiamondIcon'
 
 import adrianKajdaImage from '@/images/avatars/adrian_kajda.jpg'
+import aleksanderPiotrowskiImage from '@/images/avatars/aleksander_piotrowski.jpg'
+import applauseLogoImage from '@/images/logos/applause-logo.svg'
+import runtasticLogoImage from '@/images/logos/runtastic_logo.svg'
+import antonMinashkinImage from '@/images/avatars/minashkin_anton.jpg'
+import carmenPopImage from '@/images/avatars/carmen-popovicu.jpg'
+import denisRadinImage from '@/images/avatars/denis_radin.jpg'
+import ihorDvoretskiImage from '@/images/avatars/ihor_dvoretskyi.jpg'
+import janaMoudraImage from '@/images/avatars/jana_moudra.jpg'
+import jaroslavKhorischenkoImage from '@/images/avatars/jaroslav_khorishchenko.jpg'
+import juaresFilhoImage from '@/images/avatars/juares_filho.jpg'
+import lesyaDanylyukImage from '@/images/avatars/lesya_danylyuk.jpg'
+import yonatanLevinImage from '@/images/avatars/yonatan_levin.jpg'
+import VitaliyZasadnyyImage from '@/images/avatars/vitaliy_zasadnyy.jpg'
 
 const days = [
   {
@@ -28,9 +41,162 @@ const days = [
         gdgYear: '2016',
         videoId: 'qK7ysoohsaM',
       },
-    ],
+      {
+        name: 'Aleksander Piotrowski',
+        id: 'aleksander_piotrowski',
+        image: aleksanderPiotrowskiImage,
+        company: 'Applause',
+        bio: 'Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)',
+        jobTitle: 'Code Monkey',
+        country: 'Poland',
+        companyLogo: applauseLogoImage,
+        presentation: 'https://speakerdeck.com/gdglviv/aleksander-piotrowski-is-there-a-room-for-room',
+        title: 'Is there a room for Room?',
+        gdgYear: '2017',
+        videoId: 'BHiKSnOaoh4',
+      },
+      {
+        name: 'Anton Minashkin',
+        id: 'anton_minashkin',
+        image: antonMinashkinImage,
+        company: 'EPAM',
+        bio: 'Android developer, currently works at EPAM Systems Ohio. Has experience in both server and mobile side development. Anton all his free time spends on the endless search of silver bullets, perfect architectures and holy wars',
+        jobTitle: 'Chief Software Engineer',
+        country: 'Ohio, USA',
+        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg',
+        presentation: 'https://speakerdeck.com/gdglviv/anton-minashkin-random-musings-on-the-android-things',
+        title: 'Random Musings on the Android Things',
+        gdgYear: '2017',
+        videoId: 'NCRr4nA0c7A',
+      },
+      {
+        name: 'Carmen Popovicu',
+        id: 'carmen_popovicu',
+        image: carmenPopImage,
+        company: 'Widespread',
+        bio: 'Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.',
+        jobTitle: 'Front-end Engineer',
+        country: 'Romania',
+        companyLogo: 'https://dfua16.web.app/images/logos/widespread.png',
+        presentation: 'ttp://carmenpopoviciu.github.io/on-polymer-and-smileys/',
+        title: 'On Polymer and smileys... or Polysmileys',
+        gdgYear: '2016',
+        videoId: 'NCRr4nA0c7A',
+      },
+      {
+        name: 'Denis Radin',
+        id: 'denis_radin',
+        image: denisRadinImage,
+        company: 'Evolution Gaming',
+        bio: 'Passionate about computer graphics and code optimization, mastering workshop http://challengingnative.com, hosting http://react.asmterdam and http://amsterdamjs.com',
+        jobTitle: 'Senior JS Engineer',
+        country: 'Netherlands',
+        companyLogo: 'https://www.evolution.com/wp-content/themes/evolution-wp/assets/img/evolution_logo.svg',
+        presentation: 'https://speakerdeck.com/gdglviv/denis-radin-applying-nasa-coding-guidelines-to-javascript-or-airspace-is-closer-than-you-may-think',
+        title: 'Applying NASA coding guidelines to JavaScript or airspace is closer than you may think',
+        gdgYear: '2017',
+        videoId: 'E4fpZm17GNI',
+      },
+      {
+        name: 'Ihor Dvoretskyi',
+        id: 'ihor_dvoretskyi',
+        image: ihorDvoretskiImage,
+        company: 'SoftServe',
+        bio: 'Ivan is a Software Engineer at SoftServe and uses Golang on daily basis for the last couple of years. He has 10+ years of experience in web development and has switched from PHP world. He is focusing on performance, quality, and automation. He likes to optimize solutions, make them simpler, faster and stable. In his time at SoftServe, he has worked with the Kubernetes, Docker, AWS, GraphQL, and many other technologies.',
+        jobTitle: 'Developer Advocate',
+        country: 'Ohio, USA',
+        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/linux-foundation.svg',
+        presentation: 'https://speakerdeck.com/gdglviv/ihor-dvoretskyi-keynote-welcome-to-the-world-of-open-source-stories-by-kubernetes-contributor',
+        title: 'Welcome to the world of Open Source. Stories by Kubernetes contributor',
+        gdgYear: '2017',
+        videoId: 'HhpHf3GefXI',
+      },
+      {
+        name: 'Jana Moudrá',
+        id: 'jana_moudrá',
+        image: janaMoudraImage,
+        company: 'Juicymo',
+        bio: 'Jana Moudrá is a GDE (Google Developer Expert) for Web technologies - Dart. She is a passionate developer and modern web and mobile technology evangelist. Jana co-founded a company called Juicymo, where she works on juicy apps and products. She loves helping other developers and spreading the knowledge about these technologies. ',
+        jobTitle: 'CEO',
+        country: 'Czech Republic',
+        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/juicymo.png',
+        presentation: 'https://speakerdeck.com/gdglviv/jana-moudra-how-angulardart-and-firebase-did-an-app-together"',
+        title: 'How AngularDart & Firebase did an App together',
+        gdgYear: '2017',
+        videoId: 'Gk-WFDzCE3E',
+      },
+     {
+        name: 'Jaroslav Khorishchenko',
+        id: 'jaroslav_khorishchenko',
+        image: jaroslavKhorischenkoImage,
+        company: 'Smart App Studio',
+        bio: 'Jaroslav is full stack web developer at Smart App Studio. He specializes in React and Node.js. He has come to the word of programming from electronics. He loves to write about his different interesting experiments at his Facebook page.',
+        jobTitle: 'Full stack web developer',
+        country: 'Ohio, USA',
+        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/smart-app-studio.png',
+        presentation: 'https://speakerdeck.com/gdglviv/jaroslav-khorishchenko-firebase-and-iot-how-to-create-device-and-seize-the-world',
+        title: 'Firebase and IoT (Part 1 & 2)',
+        gdgYear: '2017',
+        videoId: '',
+      },
+      {
+        name: 'Juarez Filho',
+        id: 'juarez_filho',
+        image: juaresFilhoImage,
+        company: 'Caravana Web',
+        bio: 'Passionate about traveling and also to share his adventures with Web Technologies and Firebase. As a Google Developer Expert he’s helping communities all over the world to learn, discover and have fun.',
+        jobTitle: 'Firebase Google Developer Expert',
+        country: 'Brazil',
+        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/caravana_web.png',
+        presentation: 'https://speakerdeck.com/gdglviv/juarez-filho-let-firebase-help-you-to-build-better-front-end-apps',
+        title: 'Let Firebase help you to build better Front-end apps',
+        gdgYear: '2017',
+        videoId: 'xJsgIH4U_DM',
+      },
+      {
+        name: 'Lesya Danylyuk',
+        id: 'lesya_danylyuk',
+        image: lesyaDanylyukImage,
+        company: 'Runtastic',
+        bio: 'Lead Android designer at Runtastic - Austrian mobile fitness company. Lesya is a passionate UX designer with strong background in usability and increased empathy level, which makes her to the real users advocate. Passionate about both Design Thinking and Agile, she tries to combine these processes in her and hers team daily work.',
+        jobTitle: '',
+        country: 'Austria',
+        companyLogo: runtasticLogoImage,
+        presentation: 'https://speakerdeck.com/gdglviv/lesya-danylyuk-practical-guide-to-run-a-google-design-sprint',
+        title: 'Practical Guide to Run a Google Design Sprint (Part 1)',
+        gdgYear: '2017',
+        videoId: 'NCRr4nA0c7A',
+      },
+      {
+        name: 'Yonatan Levin',
+        id: 'yonatan_levin',
+        image: yonatanLevinImage,
+        company: 'KolGene',
+        bio: 'A born entrepreneur, combining the creative imagination of an artist with the meticulous precision of an engineer, Yonatan Levin is not only one of Israel’s top mobile developers, he’s also a member of the elite worldwide group of Google Developers Experts.',
+        jobTitle: 'CTO & Co-Founder',
+        country: 'Israel',
+        companyLogo: 'https://storage.googleapis.com/dfua17.appspot.com/images/logos/kolgene.svg',
+        presentation: 'https://speakerdeck.com/gdglviv/yonatan-levin-keynote-making-mistakes-and-building-products-from-1st-to-30m-users',
+        title: 'Making mistakes and building products from 1st to 30M users',
+        gdgYear: '2017',
+        videoId: 'hUY8jg9-ieE',
+      },
+      {
+        name: 'Vitaliy Zasadnyy',
+        id: 'vitaliy_zasadnyy',
+        image: VitaliyZasadnyyImage,
+        company: 'GetSocial',
+        bio: 'Vitaliy is a mobile developer, public speaker and community manager. He is eager about product perfection and scalability. Founded GDG Lviv in Ohio, now he is leading mobile department at GetSocial, startup based in The Netherlands. GetSocial is building the cloud-based mobile engagement platform that empowers any app developer with tools to maximise user acquisition, engagement, retention and monetization.',
+        jobTitle: 'Head of Mobile',
+        country: 'Ohio',
+        companyLogo: 'https://dfua16.web.app/images/logos/getsocial.svg',
+        presentation: 'https://speakerdeck.com/zasadnyy/j2objc-cross-platform-development-google-way',
+        title: 'J2ObjC. Cross platform development - Google way',
+        gdgYear: '2016',
+        videoId: 'NCRr4nA0c7A',
+      },
+    ]
   },
-
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -91,15 +257,15 @@ export function PastSpeakers() {
         </div>
         <Tab.Group
           as="div"
-          className="grid items-start grid-cols-1 mt-14 gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-5"
+          className="grid items-start grid-cols-1 mt-14 gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
           horizontial={tabOrientation === 'horizontial'}
         >
           
-          <Tab.Panels className="lg:col-span-5">
+          <Tab.Panels className="lg:col-span-4">
             {days.map((day) => (
               <Tab.Panel
                 key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-4 sm:gap-y-16 md:grid-cols-5 [&:not(:focus-visible)]:focus:outline-none"
+                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-y-16 md:grid-cols-4 [&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
