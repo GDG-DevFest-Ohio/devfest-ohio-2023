@@ -19,6 +19,7 @@ const days = [
         role: 'Sygic',
         company: 'Sygic',
         bio: 'Creator of Fuelio app. Fuelio was his hobby project started in 2012. Three years later the app was aquired by Sygic.',
+        jobTitle: 'Product Manager/Developer',
         country: 'Poland',
         companyLogo: 'https://dfua16.web.app/images/logos/sygic.svg',
         id: 'adrian_kajda',
@@ -131,11 +132,12 @@ export function PastSpeakers() {
                     <h3 className="mt-8 text-xl font-bold tracking-tight font-display text-slate-900">
                       {speaker.name}
                     </h3>
+                    <p className='text-sm text-slate-500'>{speaker.jobTitle}</p>
                     <a
                       src={speaker.presentation}
                       title={speaker.title && `"${speaker.title}," talk`}
                       target='_blank'
-                      className='text-blue-900 cursor-pointer hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4'>
+                      className='mt-3 text-blue-900 cursor-pointer hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4'>
                       {speaker.title}
                     </a> <span className='text-sm text-base tracking-tight text-slate-500 '>{speaker.gdgYear && `(${speaker.gdgYear})`}</span>
                     
