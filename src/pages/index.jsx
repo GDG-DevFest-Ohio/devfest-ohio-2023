@@ -3,7 +3,8 @@ import Head from 'next/head'
 import { Hero } from '@/components/Hero'
 // import { Newsletter } from '@/components/Newsletter'
 // import { Schedule } from '@/components/Schedule'
-// import { Speakers } from '@/components/Speakers'
+import { Speakers } from '@/components/Speakers'
+import { PastSpeakers } from '@/components/PastSpeakers'
 // import { Sponsors } from '@/components/Sponsors'
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      {/* <Speakers /> */}
+      <Speakers />
+      <PastSpeakers />
       {/* <Schedule /> */}
       {/* <Sponsors /> */}
       {/* <Newsletter /> */}
