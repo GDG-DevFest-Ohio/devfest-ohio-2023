@@ -1,4 +1,4 @@
-import { useEffect, useId, useState } from 'react'
+import { useId } from 'react'
 import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
@@ -239,22 +239,6 @@ function ImageClipPaths({ id, ...props }) {
 
 export function PastSpeakers() {
   let id = useId()
-  let [tabOrientation, setTabOrientation] = useState('horizontal')
-
-  useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
-
-    function onMediaQueryChange({ matches }) {
-      setTabOrientation(matches ? 'vertical' : 'horizontal')
-    }
-
-    onMediaQueryChange(lgMediaQuery)
-    lgMediaQuery.addEventListener('change', onMediaQueryChange)
-
-    return () => {
-      lgMediaQuery.removeEventListener('change', onMediaQueryChange)
-    }
-  }, [])
 
   return (
     <section
@@ -276,7 +260,6 @@ export function PastSpeakers() {
         <Tab.Group
           as="div"
           className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
-          horizontial={tabOrientation === 'horizontial'}
         >
           <Tab.Panels className="lg:col-span-4">
             {days.map((day) => (
