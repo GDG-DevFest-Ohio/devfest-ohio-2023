@@ -14,7 +14,6 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.18",
-    "@mailchimp/mailchimp_marketing": "^3.0.80",
     "add-to-calendar-button-react": "^2.3.1",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
