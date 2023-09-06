@@ -1,0 +1,26 @@
+on:
+  pull_request:
+  issue_comment:
+jobs:
+  pr_agent_job:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
+    name: Run pr agent on every pull request, respond to user comments
+    steps:
+      - name: PR Agent action step
+        id: pragent
+        uses: Codium-ai/pr-agent@main
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG.require_focused_review: true
+          CONFIG.require_score_review: true
+          CONFIG.inline_code_comments: true
+          CONFIG.ask_and_reflect: true
+          CONFIG.publish_description_as_comment: true
+          CONFIG.add_original_user_description: true
+          CONFIG.keep_original_user_title: true
+          CONFIG.push_changelog_changes: true
