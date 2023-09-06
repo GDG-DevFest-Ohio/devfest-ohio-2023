@@ -1,7 +1,8 @@
 import Head from 'next/head'
 
 import { Hero } from '@/components/Hero'
-// import { Newsletter } from '@/components/Newsletter'
+import { Newsletter } from '@/components/Newsletter'
+
 // import { Schedule } from '@/components/Schedule'
 // import { Speakers } from '@/components/Speakers'
 import { PastSpeakers } from '@/components/PastSpeakers'
@@ -22,7 +23,8 @@ export default function Home() {
       <PastSpeakers />
       {/* <Schedule /> */}
       {/* <Sponsors /> */}
-      {/* <Newsletter /> */}
+
+      <Newsletter />
     </>
   )
 }
