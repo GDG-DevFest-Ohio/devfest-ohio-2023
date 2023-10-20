@@ -1,27 +1,27 @@
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
-const CalendarButtonWithNoSSR = dynamic(
-  () => import('@/components/CalendarButton'),
-  { ssr: false },
-)
+// const CalendarButtonWithNoSSR = dynamic(
+//   () => import('@/components/CalendarButton'),
+//   { ssr: false },
+// )
 
 export function Hero() {
   return (
-    <div className="relative pb-20 pt-10 sm:pb-24">
+    <div className="relative pt-10 ">
       <BackgroundImage className="-bottom-14 -top-36" />
       <Container className="relative">
-        <div className="mb-16 flex justify-center sm:hidden">
-          <CalendarButtonWithNoSSR />
+        <div className="flex justify-center mb-16 sm:hidden">
+          {/* <CalendarButtonWithNoSSR /> */}
         </div>
-        <div className="mx-auto mt-10 max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-6xl">
+        <div className="max-w-2xl mx-auto mt-10 lg:max-w-4xl lg:px-12">
+          <h1 className="text-5xl font-bold tracking-tighter text-center text-blue-600 font-display sm:text-7xl">
+            <span className="text-5xl font-bold tracking-tighter text-blue-600 font-display sm:text-6xl">
               Join us in Ohio &hellip;
             </span>
             <br></br> <span>Google DevFest!</span>
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 text-2xl tracking-tight text-blue-900 font-display">
             <p>
               <span className="font-bold">Discover Ohio DevFest.</span> Hosted
               by Google Developer Groups from Ohio tech strongholds. Enjoy
@@ -40,13 +40,13 @@ export function Hero() {
               Google&rsquo;s latest technologies from Googlers, Google Developer
               Experts and industry professionals. In 2022, GDGs ran 550+
               DevFests, helping 320k+ developers.{' '}
-              <span className="font-bold italic">
+              <span className="italic font-bold">
                 Come to learn, share, and connect with your community.{' '}
               </span>
             </p>
           </div>
 
-          <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+          {/* <dl className="grid grid-cols-2 mt-10 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', 'TBD'],
               ['People Attending', '300+'],
@@ -60,7 +60,7 @@ export function Hero() {
                 </dd>
               </div>
             ))}
-          </dl>
+          </dl> */}
         </div>
       </Container>
     </div>
