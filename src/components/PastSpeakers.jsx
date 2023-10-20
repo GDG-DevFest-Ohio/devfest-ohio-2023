@@ -248,18 +248,18 @@ export function PastSpeakers() {
     >
       <ImageClipPaths id={id} />
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto lg:mx-0">
           <h2
             id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="text-4xl font-medium tracking-tighter text-blue-600 font-display sm:text-5xl"
           >
-            Past Speakers
+            We proudly share our past speakers
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900"></p>
+          <p className="max-w-2xl mt-4 text-2xl tracking-tight text-blue-900 font-display">GDG Ohio has been in the region and operating successful events sponsored in part by Google and many local businesses as well as the great support of volunteers. </p>
         </div>
         <Tab.Group
           as="div"
-          className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
+          className="grid items-start grid-cols-1 mt-14 gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
         >
           <Tab.Panels className="lg:col-span-4">
             {days.map((day) => (
@@ -286,7 +286,7 @@ export function PastSpeakers() {
                         style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
                       >
                         <Image
-                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                          className="absolute inset-0 object-cover w-full h-full transition duration-300 group-hover:scale-110"
                           src={speaker.image}
                           alt=""
                           priority
@@ -294,7 +294,7 @@ export function PastSpeakers() {
                         />
                       </div>
                     </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+                    <h3 className="mt-8 text-xl font-bold tracking-tight font-display text-slate-900">
                       {speaker.name}
                     </h3>
                     <p className="text-sm text-slate-500">{speaker.jobTitle}</p>
@@ -302,16 +302,16 @@ export function PastSpeakers() {
                       src={speaker.presentation}
                       title={speaker.title && `"${speaker.title}," talk`}
                       target="_blank"
-                      className="mt-3 cursor-pointer text-blue-900 hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4"
+                      className="mt-3 text-blue-900 cursor-pointer hover:underline hover:underline-offset-4 focus:font-bold focus:underline focus:underline-offset-4"
                     >
                       {speaker.title}
                     </a>{' '}
-                    <span className="text-base text-sm tracking-tight text-slate-500 ">
+                    <span className="text-sm text-base tracking-tight text-slate-500 ">
                       {speaker.gdgYear && `(${speaker.gdgYear})`}
                     </span>
-                    <p className="align-center mt-3 flex text-base tracking-tight text-slate-500">
+                    <p className="flex mt-3 text-base tracking-tight align-center text-slate-500">
                       <Image
-                        className="me-2 inline"
+                        className="inline me-2"
                         src={speaker.companyLogo}
                         alt={speaker.company && `${speaker.company} logo`}
                         priority
