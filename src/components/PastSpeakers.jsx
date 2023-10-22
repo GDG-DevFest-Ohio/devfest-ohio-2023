@@ -248,14 +248,18 @@ export function PastSpeakers() {
     >
       <ImageClipPaths id={id} />
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto lg:mx-0">
           <h2
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Past Speakers
+            We proudly share our past speakers
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900"></p>
+          <p className="mt-4 max-w-2xl font-display text-2xl tracking-tight text-blue-900">
+            GDG Ohio has been in the region and operating successful events
+            sponsored in part by Google and many local businesses as well as the
+            great support of volunteers.{' '}
+          </p>
         </div>
         <Tab.Group
           as="div"

@@ -1,18 +1,18 @@
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
-const CalendarButtonWithNoSSR = dynamic(
-  () => import('@/components/CalendarButton'),
-  { ssr: false },
-)
+// const CalendarButtonWithNoSSR = dynamic(
+//   () => import('@/components/CalendarButton'),
+//   { ssr: false },
+// )
 
 export function Hero() {
   return (
-    <div className="relative pb-20 pt-10 sm:pb-24">
+    <div className="relative pt-10 ">
       <BackgroundImage className="-bottom-14 -top-36" />
       <Container className="relative">
         <div className="mb-16 flex justify-center sm:hidden">
-          <CalendarButtonWithNoSSR />
+          {/* <CalendarButtonWithNoSSR /> */}
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="text-center font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
@@ -46,7 +46,7 @@ export function Hero() {
             </p>
           </div>
 
-          <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+          {/* <dl className="grid grid-cols-2 mt-10 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', 'TBD'],
               ['People Attending', '300+'],
@@ -60,7 +60,7 @@ export function Hero() {
                 </dd>
               </div>
             ))}
-          </dl>
+          </dl> */}
         </div>
       </Container>
     </div>

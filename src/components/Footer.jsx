@@ -1,17 +1,17 @@
-import dynamic from 'next/dynamic'
+//import dynamic from 'next/dynamic'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/LogoFooter'
 // import CalendarButton from '@/components/CalendarButton'
-const CalendarButtonWithNoSSR = dynamic(
-  () => import('@/components/CalendarButton'),
-  { ssr: false },
-)
+// const CalendarButtonWithNoSSR = dynamic(
+//   () => import('@/components/CalendarButton'),
+//   { ssr: false },
+// )
 
 export function Footer() {
   return (
     <footer role="contentinfo" className="flex-none py-16">
       <div className="mb-12 flex items-center justify-center">
-        <CalendarButtonWithNoSSR />
+        {/* <CalendarButtonWithNoSSR /> */}
       </div>
       <Container className="flex flex-row">
         <div className="flex">
