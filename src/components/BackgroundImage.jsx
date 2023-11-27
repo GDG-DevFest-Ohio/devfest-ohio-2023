@@ -7,7 +7,7 @@ export function BackgroundImage({ className, position = 'left' }) {
   return (
     <div
       className={clsx(
-        'absolute inset-0 overflow-hidden bg-indigo-50',
+        'absolute inset-0 overflow-hidden',
         className,
       )}
     >

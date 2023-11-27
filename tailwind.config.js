@@ -31,6 +31,9 @@ module.exports = {
       maxWidth: {
         '2xl': '40rem',
       },
+      backgroundImage: {
+        'header-image': "url('/img/df2023png.png') top left no-repeat",
+      },
     },
   },
   varients: {
