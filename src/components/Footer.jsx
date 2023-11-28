@@ -10,23 +10,21 @@ import { Logo } from '@/components/LogoFooter'
 export function Footer() {
   return (
     <footer role="contentinfo" className="flex-none py-16">
-      <div className="flex items-center justify-center mb-12">
+      <div className="mb-12 flex items-center justify-center">
         {/* <CalendarButtonWithNoSSR /> */}
       </div>
       <Container className="flex flex-row">
         <div className="flex">
-          <Logo className="w-auto h-20 text-red-700 transition duration-700 ease-in-out md:h-44 hover:rotate-12 hover:text-blue-600" />
+          <Logo className="h-20 w-auto text-red-700 transition duration-700 ease-in-out hover:rotate-12 hover:text-blue-600 md:h-44" />
         </div>
 
-        <div className="flex flex-row items-end mx-auto text-center">
+        <div className="mx-auto flex flex-row items-end text-center">
           <p className="mt-6 text-base text-slate-500 md:mt-0">
             Copyright &copy; {new Date().getFullYear()} Shrinkray Labs. All
             rights reserved.
           </p>
         </div>
-        
       </Container>
-
     </footer>
   )
 }

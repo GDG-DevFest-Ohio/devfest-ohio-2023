@@ -5,12 +5,7 @@ import backgroundImage from '@/images/langle.webp'
 
 export function BackgroundImage({ className, position = 'left' }) {
   return (
-    <div
-      className={clsx(
-        'absolute inset-0 overflow-hidden',
-        className,
-      )}
-    >
+    <div className={clsx('absolute inset-0 overflow-hidden', className)}>
       <Image
         className={clsx(
           'absolute top-32',

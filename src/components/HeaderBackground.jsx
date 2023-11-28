@@ -5,18 +5,12 @@ import backgroundImage from '@/images/df23header.svg'
 
 export function HeaderBackground({ className, position = 'left' }) {
   return (
-    <div
-      className={clsx(
-        'absolute inset-0 overflow-hidden z-0',
-        className,
-      )}
-    >
+    <div className={clsx('absolute inset-0 z-0 overflow-hidden', className)}>
       <Image
         className={clsx(
-          'absolute top-0 object-cover w-full h-full z-0',
+          'absolute top-0 z-0 h-full w-full object-cover',
           position === 'left',
           position === 'right',
-
         )}
         src={backgroundImage}
         alt=""
@@ -25,7 +19,6 @@ export function HeaderBackground({ className, position = 'left' }) {
         priority
         unoptimized
       />
-      
     </div>
   )
 }
