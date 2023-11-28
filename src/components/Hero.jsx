@@ -8,7 +8,7 @@ import { Container } from '@/components/Container'
 
 export function Hero() {
   return (
-    <div className="relative pt-10 ">
+    <div className="relative">
       {/* <BackgroundImage className="-bottom-14 -top-36" /> */}
       <Container className="relative">
         <div className="flex justify-center mb-16 sm:hidden">
