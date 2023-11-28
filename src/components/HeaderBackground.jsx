@@ -7,7 +7,7 @@ export function HeaderBackground({ className, position = 'left' }) {
   return (
     <div
       className={clsx(
-        'absolute inset-0 overflow-hidden',
+        'absolute inset-0 overflow-hidden z-0',
         className,
       )}
     >
@@ -25,8 +25,7 @@ export function HeaderBackground({ className, position = 'left' }) {
         priority
         unoptimized
       />
-      {/* <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
-      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" /> */}
+      
     </div>
   )
 }
